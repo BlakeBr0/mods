@@ -40,6 +40,21 @@ You can change the amount of souls required for a mob soul type.
 }
 ```
 
+### Entities (v2.1.5+)
+You can add or remove entities from a mob soul type. These use an array of entity ids to define which entities should be added or removed. Do note that an entity can only be added to a single mob soul type at a time, so make sure to remove the entities from their current mob soul types if applicable.
+```json
+{
+  "entities": {
+    "add": [
+      "minecraft:skeleton"
+    ],
+    "remove": [
+      "minecraft:spider"
+    ]
+  }
+}
+```
+
 ### Color
 You can change the color of the Soul Jar for a mob soul type. Colors are set using HEX values.
 ```json

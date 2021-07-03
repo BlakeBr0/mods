@@ -91,6 +91,22 @@ The item rarity of this jetpack. This is basically just used to change the color
 ```
 Omitting this field will default to `0`.
 
+### Toughness (4.2.1+)
+The amount of armor toughness this jetpack should give when worn.
+```json
+{
+  "toughness": 0
+}
+```
+
+### Knockback Resistance (4.2.1+)
+The amount of knockback resistance this jetpack should give when worn.
+```json
+{
+  "knockbackResistance": 0
+}
+```
+
 ### Capacity*
 How much FE this jetpack can hold.
 ```json
@@ -183,6 +199,8 @@ How much more fuel should the jetpack use while sprinting.
   "enchantability": 15,
   "craftingMaterial": "tag:forge:gems/emerald",
   "rarity": 0,
+  "toughness": 0,
+  "knockbackResistance": 0,
   "capacity": 48000000,
   "usage": 880,
   "speedVertical": 1.03,

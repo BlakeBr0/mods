@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Blake's Mods Blog</title>
+        <link>https://blakebr0.github.io/blog</link>
+        <description>The best place to stay up-to-date with the latest Blake's Mods news and events.</description>
+        <lastBuildDate>Sun, 22 Mar 2020 06:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>Blake's Mods Blog</title>
+            <url>https://blakebr0.github.io/img/mysticalagriculture_thumbnail_nb.ico</url>
+            <link>https://blakebr0.github.io/blog</link>
+        </image>
+        <copyright>Copyright © 2021 BlakeBr0</copyright>
+        <item>
+            <title><![CDATA[First Post]]></title>
+            <link>https://blakebr0.github.io/blog/2020/03/22/first-post.html</link>
+            <guid>https://blakebr0.github.io/blog/2020/03/22/first-post.html</guid>
+            <pubDate>Sun, 22 Mar 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>This is a test blog post.</p> ]]></description>
+        </item>
+    </channel>
+</rss>
